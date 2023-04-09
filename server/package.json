@@ -1,0 +1,27 @@
+{
+  "name": "enventory-management-api",
+  "version": "1.0.0",
+  "description": "This is the RESTful API for the enventory management",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/api/bin/www",
+    "start": "node ./src/api/bin/www"
+  },
+  "author": "Afzal Imam",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "hpp": "^0.2.3",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.1",
+    "xss-clean": "^0.1.1"
+  }
+}
