@@ -37,5 +37,6 @@ Check documentation of this API on below link
 
 https://documenter.getpostman.com/view/23125063/2s93XsYRjM
 
-## Live Website Link
-
+## Deployed Links
+Check the live website: https://realinventory.netlify.app/
+Deployed API URL and EndPoints : https://real-inventory.onrender.com/api/v1/inventory
